@@ -13,8 +13,6 @@ const useFetchPageScreenshot = ({ url }) => {
       const statusResponse = await axios.post(
         "https://api.dataforseo.com/v3/on_page/page_screenshot",
         [{ url, full_page_screenshot: false }],
-       'https://api.dataforseo.com/v3/on_page/page_screenshot',
-        [{ url , "full_page_screenshot":false }],
         {
           auth: {
             username,
